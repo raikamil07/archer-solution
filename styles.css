@@ -389,13 +389,23 @@
             transform: scale(1.05);
         }
 
-        footer {
-            background-color: var(--primary-bg);
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
+        body {
+            min-height: 100vh;
+            position: relative;
+            margin: 0;
         }
 
+        footer {
+            background-color: var(--text-dark);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        
         /* Mobile Responsive */
         @media (max-width: 858px) {
             .nav_archer {
