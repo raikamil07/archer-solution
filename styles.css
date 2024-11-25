@@ -75,6 +75,11 @@
             align-items: center;
             padding: 100px 20px;
             text-align: center;
+            background-image: url(./photos/Untitled\ design.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
         }
 
         .home img {
